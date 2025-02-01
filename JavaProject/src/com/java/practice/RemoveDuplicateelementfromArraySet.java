@@ -14,7 +14,7 @@ public class RemoveDuplicateelementfromArraySet {
 
 		Set<Integer> set = new HashSet<Integer>(list);
 
-		System.out.println(set);
+		System.out.println("List after removing duplicate elements are : "+set);
 
 	}
 
