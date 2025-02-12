@@ -1,6 +1,6 @@
 package com.java.practice;
 
-public class CountLowerUpperCharacter {
+public class newProgram {
 
 	public static void main(String[] args) {
 
