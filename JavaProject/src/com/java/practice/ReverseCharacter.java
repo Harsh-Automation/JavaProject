@@ -8,6 +8,8 @@ public class ReverseCharacter {
 
 		char[] chars = originalSentence.toCharArray();
 		StringBuilder sb = new StringBuilder();
+		
+		System.out.println("New Line");
 
 		for (char c : chars) {
 			if (Character.isAlphabetic(c)) {
