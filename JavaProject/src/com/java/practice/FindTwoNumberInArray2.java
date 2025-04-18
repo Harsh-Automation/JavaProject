@@ -33,6 +33,7 @@ public class FindTwoNumberInArray2 {
 			} else
 
 				map.put(arr[i], i);
+			
 
 		}
 		System.out.println(date);
