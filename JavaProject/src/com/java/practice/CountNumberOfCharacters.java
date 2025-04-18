@@ -17,6 +17,7 @@ public class CountNumberOfCharacters {
 			map.put(c, map.getOrDefault(c, 0) + 1);
 
 		}
+		
 		System.out.println(map);
 
 	}
