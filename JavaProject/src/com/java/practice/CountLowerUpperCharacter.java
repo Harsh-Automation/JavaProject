@@ -23,8 +23,8 @@ public class CountLowerUpperCharacter {
 				upper_char++;
 			}
 		}
-		System.out.println(lower_char);
-		System.out.println(upper_char);
+		System.out.println("Lower case character is : "+lower_char);
+		System.out.println("Upper case character is : "+upper_char);
 	}
 
 }
