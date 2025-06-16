@@ -1,7 +1,5 @@
 package com.java.practice;
 
-import com.google.common.base.Ascii;
-
 public class CountLowerUpperCharacter {
 
 	public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class CountLowerUpperCharacter {
 
 		for (char c : str_character) {
 
-			if (Ascii.isLowerCase(c)) {
+			if (Character.isLowerCase(c)) {
 
 				lower_char++;
 
@@ -23,8 +21,12 @@ public class CountLowerUpperCharacter {
 				upper_char++;
 			}
 		}
+
 		System.out.println("Lower case character is : "+lower_char);
 		System.out.println("Upper case character is : "+upper_char);
+
+		System.out.println("Lower character is : " + lower_char);
+		System.out.println("Upper character is : " + upper_char);
 	}
 
 }
